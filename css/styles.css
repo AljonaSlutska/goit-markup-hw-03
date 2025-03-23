@@ -40,12 +40,11 @@ padding: 0 15px;
 margin: 0 auto;
 }
 
-
 button {
 cursor: pointer;
 }
 
-.img {
+img {
 display: block;
 max-width: 100%;
 height: auto;
@@ -172,10 +171,7 @@ background-color: #404bbf;
 }
 
 .features {
-padding-top: 103px;
-padding-right: 13px;
-padding-bottom: 137px;
-padding-left: 13px;
+padding: 120px 0;
 }
 
 .features-list {
@@ -187,20 +183,15 @@ gap: 24px;
 flex-basis: calc((100% - 72) / 4);
 }
 
-.features-subtitle {
-padding-bottom: 8px;
-}
-
 .team-item-container {
 border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
+padding: 32px 0;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-gap: 32px;
+/* gap: 32px; */
 }
-
 
 .features-subtitle {
 font-weight: 500;
@@ -208,6 +199,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -220,7 +212,8 @@ max-width: 264px;
 
 .team {
 background-color: #F4F4FD;
-height: 732px;
+/* height: 732px; */
+padding: 120px 0;
 }
 
 .team-title {
@@ -230,8 +223,7 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
-padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .team-list {
@@ -242,7 +234,7 @@ gap: 24px;
 .team-item {
 background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
+padding: 32px 0;
 width: 264px;
 height: 380px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -257,6 +249,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .team-text {
@@ -269,13 +262,7 @@ color: #434455;
 
 .portfolio {
 background-color: #fff;
-padding-bottom: 120px;
-}
-
-.portfolio-list {
-display: flex;
-flex-wrap: wrap;
-gap: 24px;
+padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -286,7 +273,13 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
+}
+
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
 }
 
 .portfolio-list {
@@ -298,6 +291,7 @@ gap: 48px 24px;
 .portfolio-item {
 flex-basis: calc((100% - 48px) / 3);
 border-radius: 0 0 4px 4px;
+
 }
 
 .portfolio-subtitle {
@@ -337,7 +331,9 @@ padding-bottom: 100px;
 }
 
 .footer-logo .logo-part {
+display: inline;
 color: #f4f4fd;
+margin-bottom: 16px;
 }
 
 .page-footer-text {
@@ -346,5 +342,4 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
-padding-top: 16px;
 }
